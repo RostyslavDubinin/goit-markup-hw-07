@@ -291,7 +291,7 @@ header>.container {
     margin-bottom: 0px;  
 }
 
-/* Чем мы занимаемся */
+/* What we do */
 
 .section-service {
     background-color: var(--background-color-section);
@@ -331,7 +331,7 @@ header>.container {
 }
 
 
-/* Наша команда */
+/* our team */
 .section-workers { 
     background-color: var(--background-color-section-workers);
     padding-top: 94px;
@@ -403,7 +403,7 @@ header>.container {
     fill: currentColor;
 }
 
-/* Постоянные клиенты */
+/* regular clients */
 
 .section-regular-clients {
     background-color: var(--background-color-section);
