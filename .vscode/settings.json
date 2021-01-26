@@ -29,6 +29,7 @@
     "markdown",
     "latex",
     "plaintext",
-    "html"
+    "html",
+    "scss"
 ]
 }
