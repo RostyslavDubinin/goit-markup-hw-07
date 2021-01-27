@@ -5,13 +5,14 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .clients-link-container {
     display: flex;
     flex-wrap: wrap;
-}
 
-.clients-link-container .item:not(:last-child) {
-    margin-right: 30px;
+    .item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .link-clients {
@@ -22,8 +23,15 @@
     box-sizing: border-box;
     display: block;
     border-radius: 4px;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: #2196F3;
+        border: 1px solid #2196F3;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
 }
 
 .icon-clients {
@@ -47,12 +55,4 @@
 }
 .comp6 {
     padding: 22px 40px 22px 41px;
-}
-
-.link-clients:hover,
-.link-clients:focus {
-    color: #2196F3;
-    border: 1px solid #2196F3;
-    box-sizing: border-box;
-    border-radius: 4px;
 }
