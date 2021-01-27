@@ -2,8 +2,8 @@
 
 .logo-white {
     color: $title-text-color;
-    font-family: Raleway, sans-serif;
-    font-size: 26px;
+    font-family: $font-family-logo
+    font-size: $font-size-logo;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -26,8 +26,8 @@
         padding-top: 32px;
         padding-bottom: 32px;
         color: $title-text-color;
-        font-weight: 500;
-        font-size: 14px;
+        font-weight: $font-weight-address-nav;
+        font-size: $font-size-address-nav;
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
@@ -71,8 +71,8 @@
         padding-top: 32px;
         padding-bottom: 32px;
         color: $primary-text-color;
-        font-weight: 500;
-        font-size: 14px;
+        font-weight: $font-weight-address-nav;
+        font-size: $font-size-address-nav;
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;

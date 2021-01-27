@@ -6,14 +6,13 @@
     margin: 40px;
 
     p {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
+        font-family: $font-family-body;
+        font-weight: $font-weight-title-name;
+        font-size: $font-size-text-form;
         line-height: 1.15;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: $title-text-color;
         margin: 0px;
         margin-bottom: 12px;
     }
@@ -22,17 +21,16 @@
         width: 200px;
         height: 50px;
         margin: auto;
-        background: #2196F3;
+        background: $background-color-button;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
+        font-family: $font-family-body;
+        font-weight: $font-weight-title-name;
+        font-size: $font-size-button;
         line-height: 1.87;
         text-align: center;
         letter-spacing: 0.06em;
-        color: #FFFFFF;
+        color: $secondary-text-color;
     }
 }
 
@@ -40,13 +38,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
+    font-family: $font-family-body;
+    font-weight: $font-weight-body;
+    font-size: $font-size-form-fild;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: $primary-text-color;
 
     label {
         margin-bottom: 4px;
@@ -65,7 +62,7 @@
 
     &:hover .icon,
     input:focus + .icon {
-        fill: #2196F3;
+        fill: $accent-text-color;
     }
 
     textarea {
@@ -76,10 +73,9 @@
         border: 1px solid rgba(33, 33, 33, 0.2);
         box-sizing: border-box;
         border-radius: 4px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
+        font-family: $font-family-body;
+        font-weight: $font-weight-body;
+        font-size: $font-size-form-fild;
         line-height: 1.16;
         letter-spacing: 0.01em;
         color: rgba(117, 117, 117, 0.5);
@@ -99,13 +95,12 @@
     justify-content:center;
     align-items:center;
     margin-bottom: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-family: $font-family-body;
+    font-weight: $font-weight-body;
+    font-size: $font-size-address-nav;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $primary-text-color;
 
     .checkbox-label {
         display: flex;
@@ -134,14 +129,14 @@
 }
 
 .checkbox:checked + .icon-checkbox {
-    border-color: #2196F3;
-    background-color: #2196F3;
+    border-color: $accent-text-color;
+    background-color: $background-color-button;
     background-image: url('/images/icon/icon\ check.svg');
     background-size: contain;
     background-origin: border-box;
 }
 
 .logo-agreement {
-    color: #2196F3;
+    color: $accent-text-color;
     margin-left: 5px;
 }

@@ -7,8 +7,8 @@
 
     .workers-title-name { 
         color: $title-text-color;
-        font-weight: 500;
-        font-size: 16px;
+        font-weight: $font-weight-address-nav;
+        font-size: $font-size-button;
         line-height: 1.18;
         margin-top: 30px;
         margin-bottom: 10px; 
@@ -16,7 +16,7 @@
     }
 
     p {  
-        font-size: 16px;
+        font-size: $font-size-button;
         line-height: 1.18;
         letter-spacing: 0.03em; 
         margin-top: 0px;
@@ -49,8 +49,8 @@
 }
 
 .link-social {
-    color: #AFB1B8;
-    background-color: #FFFFFF;
+    color: $link-social-color;
+    background-color: $background-color-section;
     padding: 12px;
     width: 44px;
     height: 44px;
@@ -61,8 +61,8 @@
 
     &:hover,
     &:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: $background-color-button;
+    color: $secondary-text-color;
     }
 }
 

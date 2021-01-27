@@ -38,8 +38,8 @@ img {
 
 .section-title {
     color: $title-text-color;
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: $font-weight-title-name;
+    font-size: $font-size-section-title;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
@@ -48,5 +48,5 @@ img {
 }
 
 header {
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid $background-color-header-border;
 }
