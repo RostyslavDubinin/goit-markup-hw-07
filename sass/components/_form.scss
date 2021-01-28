@@ -131,7 +131,7 @@
 .checkbox:checked + .icon-checkbox {
     border-color: $accent-text-color;
     background-color: $background-color-button;
-    background-image: url('/images/icon/icon\ check.svg');
+    background-image: url('../images/icon/icon\ check.svg');
     background-size: contain;
     background-origin: border-box;
 }
